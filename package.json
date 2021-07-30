@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "Heartbeat demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "node_modules\\_electron@13.1.7@electron\\dist\\electron.exe ./    ",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Xeno",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.59",
+    "electron": "^13.1.7",
+    "serialport": "^9.2.0"
+  },
+  "dependencies": {}
+}
